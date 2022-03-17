@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const db = require('../../db/connection');
 
-// get all departments
+// get all departments and assigned employees
 router.get('/department', (req, res) => {
     const sql = `SELECT department.*, employees.name
                     AS employees_name
