@@ -8,17 +8,17 @@ VALUES
     ('Maintenance', 'Clean Up and Repair');
 
 INSERT INTO roles
-    (title, salary, department_id)
+    (title, salary)
 VALUES
-    ('Manager', '$75,000.00', 1),
-    ('Supervisor', '$67,500.00', 2),
-    ('Team Lead', '$50,000.00', 3),
-    ('Associate', '$35,000.00', 4);
+    ('Manager', 75000.00),
+    ('Supervisor', 67500.00),
+    ('Team Lead', 50000.00),
+    ('Associate', 35000.00);
 
 INSERT INTO employees
     (first_name, last_name)
 VALUES
-    ('Jim', 'Carrey',
+    ('Jim', 'Carrey'),
     ('Sigourney', 'Weaver'),
     ('Jeff', 'Bridges'),
     ('Matt', 'Damon'),
