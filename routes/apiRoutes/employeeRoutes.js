@@ -3,7 +3,7 @@ const router = express.Router();
 const db = require('../../db/connection');
 
 // get all employees
-router.get('/parties', (req, res) => {
+router.get('/employees', (req, res) => {
     const sql = `SELECT * FROM employees`;
 
     db.query(sql, (err, rows) => {
